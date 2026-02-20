@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+  --bg-color: #050a14;
+  --panel-bg: #0c1424;
+  --panel-border: #1a2a47;
+  --intel-blue: #0068B5;
+  --neon-blue: #00c3ff;
+  --neon-green: #00ff88;
+  --neon-purple: #b500ff;
+  --text-main: #e2e8f0;
+  --text-dim: #94a3b8;
+  --font-ui: 'Inter', sans-serif;
+  --font-mono: 'Share Tech Mono', monospace;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: var(--font-ui);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
